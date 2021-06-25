@@ -1,3 +1,5 @@
+import { TestScheduler } from "jest-cli";
+
 export class Age {
   constructor(myPlanet, myAge) {
     this.myPlanet = myPlanet;
@@ -44,6 +46,8 @@ export class Life {
   }
   planetYearsTillDeath() {
     this.myDeath = this.myLifeExpectancy - Age.myAge;
-    return this.myDeath;
+    if (this.myLifeExpectancy > Age.myAge) {
+      return this.myDeath;
+    }
   }
 }
