@@ -1,8 +1,7 @@
 export class Age {
-  constructor(myPlanet, myAge, myLife) {
+  constructor(myPlanet, myAge) {
     this.myPlanet = myPlanet;
     this.myAge = myAge;
-    this.myLife = myLife;
   }
   mercuryYearsOld() {
     this.myAge = Math.trunc(this.myAge/ 0.24);
@@ -19,5 +18,9 @@ export class Age {
   jupiterYearsOld() {
     this.myAge = Math.trunc(this.myAge/ 11.86);
     return this.myAge;
+  }
+}
+export class Life {
+  constructor(myLife) {
   }
 }
