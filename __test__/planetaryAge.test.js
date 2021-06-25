@@ -32,20 +32,20 @@ describe('Life', () => {
     const mercuryLife = new Life(80);
     expect(mercuryLife.myLifeExpectancy).toEqual(80);
   })
-  test('should create mercuryYearsTillDeath prototype method to calculate how many years the user could live in the jupiter years based on average life expectancy, () => {
+  test('should create mercuryTotalLifeYears prototype method to calculate how many years the user could live in the mercury years based on average life expectancy', () => {
     const mercuryLife = new Life(80);
-    expect(mercuryLife.mercuryYearsTillDeath()).toEqual(333);
+    expect(mercuryLife.mercuryTotalLifeYears()).toEqual(333);
   })
-  test('should create venusYearsTillDeath prototype method to calculate how many years the user could live in the venus years based on average life expectancy, () => {
+  test('should create venusTotalLifeYears prototype method to calculate how many years the user could live in the venus years based on average life expectancy', () => {
     const venusLife = new Life(80);
-    expect(venusLife.venusYearsTillDeath()).toEqual(129);
+    expect(venusLife.venusTotalLifeYears()).toEqual(129);
   })
-  test('should create marsYearsTillDeath prototype method to calculate how many years the user could live in the mars years based on average life expectancy, () => {
+  test('should create marsTotalLifeYears prototype method to calculate how many years the user could live in the mars years based on average life expectancy', () => {
     const marsLife = new Life(80);
-    expect(marsLife.marsYearsTillDeath()).toEqual(42);
+    expect(marsLife.marsTotalLifeYears()).toEqual(42);
   })
-  test('should create jupiterYearsTillDeath prototype method to calculate how many years the user could live in the jupiter years based on average life expectancy', () => {
+  test('should create jupiterTotalLifeYears prototype method to calculate how many years the user could live in the jupiter years based on average life expectancy', () => {
     const jupiterLife = new Life(80);
-    expect(jupiterLife.jupiterYearsTillDeath()).toEqual(6);
+    expect(jupiterLife.jupiterTotalLifeYears()).toEqual(6);
   })
 });

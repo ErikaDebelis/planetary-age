@@ -25,21 +25,21 @@ export class Life {
     this.myLifeExpectancy = myLife;
     this.myDeath = 0;
   }
-  mercuryYearsTillDeath() {
+  mercuryTotalLifeYears() {
     this.myLifeExpectancy = Math.trunc(this.myLifeExpectancy/ 0.24);
     return this.myLifeExpectancy;
   }
-  venusYearsTillDeath() {
+  venusTotalLifeYears() {
     this.myLifeExpectancy = Math.trunc(this.myLifeExpectancy/ 0.62);
     return this.myLifeExpectancy;
   }
-  marsYearsTillDeath() {
+  marsTotalLifeYears() {
     this.myLifeExpectancy = Math.trunc(this.myLifeExpectancy/ 1.88);
     return this.myLifeExpectancy;
   }
-  jupiterYearsTillDeath() {
+  jupiterTotalLifeYears() {
     this.myLifeExpectancy = Math.trunc(this.myLifeExpectancy/ 11.86);
     return this.myLifeExpectancy;
   }
-  
+
 }
