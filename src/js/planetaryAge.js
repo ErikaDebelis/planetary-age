@@ -4,4 +4,6 @@ export class Age {
     this.myAge = myAge;
     this.myLife = myLife;
   }
+  mercuryYearsOld() {
+  }
 }
