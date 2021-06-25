@@ -5,5 +5,6 @@ export class Age {
     this.myLife = myLife;
   }
   mercuryYearsOld() {
+    this.myAge = Math.trunc(this.myAge/ 0.24);
   }
 }
