@@ -29,23 +29,23 @@ import {Life} from '../src/js/planetaryAge.js'
 describe('Life', () => {
 
   test('should create Life class object with corresponding parameters', () => {
-    const mercuryLife = new Life(80);
-    expect(mercuryLife.myLifeExpectancy).toEqual(80);
+    const earthLifeExpectancy = new Life(25, 80);
+    expect(earthLifeExpectancy.myLifeExpectancy).toEqual(80);
   })
   test('should create mercuryTotalLifeYears prototype method to calculate how many years the user could live in the mercury years based on average life expectancy', () => {
-    const mercuryLife = new Life(80);
+    const mercuryLife = new Life(25, 80);
     expect(mercuryLife.mercuryTotalLifeYears()).toEqual(333);
   })
   test('should create venusTotalLifeYears prototype method to calculate how many years the user could live in the venus years based on average life expectancy', () => {
-    const venusLife = new Life(80);
+    const venusLife = new Life(25, 80);
     expect(venusLife.venusTotalLifeYears()).toEqual(129);
   })
   test('should create marsTotalLifeYears prototype method to calculate how many years the user could live in the mars years based on average life expectancy', () => {
-    const marsLife = new Life(80);
+    const marsLife = new Life(25, 80);
     expect(marsLife.marsTotalLifeYears()).toEqual(42);
   })
   test('should create jupiterTotalLifeYears prototype method to calculate how many years the user could live in the jupiter years based on average life expectancy', () => {
-    const jupiterLife = new Life(80);
+    const jupiterLife = new Life(25, 80);
     expect(jupiterLife.jupiterTotalLifeYears()).toEqual(6);
   })
 });

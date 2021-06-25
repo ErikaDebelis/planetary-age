@@ -21,7 +21,8 @@ export class Age {
   }
 }
 export class Life {
-  constructor(myLife) {
+  constructor(myPlanetAge, myLife) {
+    Age.myAge = myPlanetAge;
     this.myLifeExpectancy = myLife;
     this.myDeath = 0;
   }
@@ -41,5 +42,4 @@ export class Life {
     this.myLifeExpectancy = Math.trunc(this.myLifeExpectancy/ 11.86);
     return this.myLifeExpectancy;
   }
-
 }
