@@ -38,5 +38,7 @@ export class Life {
     return this.myLifeExpectancy;
   }
   jupiterYearsTillDeath() {
+    this.myLifeExpectancy = Math.trunc(this.myLifeExpectancy/ 11.86);
+    return this.myLifeExpectancy;
   }
 }
