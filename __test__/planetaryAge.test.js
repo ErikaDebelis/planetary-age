@@ -44,4 +44,8 @@ describe('Life', () => {
     const marsLife = new Life(80);
     expect(marsLife.marsYearsTillDeath()).toEqual(42);
   })
+  test('should create jupiterYearsTillDeath prototype method to calculate how many years the user has left to live in the jupiter years', () => {
+    const jupiterLife = new Life(80);
+    expect(jupiterLife.jupiterYearsTillDeath()).toEqual(6);
+  })
 });
