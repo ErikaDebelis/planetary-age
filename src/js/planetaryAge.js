@@ -22,5 +22,7 @@ export class Age {
 }
 export class Life {
   constructor(myLife) {
+    this.myLifeExpectancy = myLife;
+    this.myDeath = 0;
   }
 }
