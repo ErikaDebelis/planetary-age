@@ -52,4 +52,8 @@ describe('Life', () => {
     const mercuryLife = new Life(104, 333);
     expect(mercuryLife.planetYearsTillDeath()).toEqual(229)
   })
+  test('should create branching within planetYearsTillDeath to return the number of years they have lived past the life expectancy', () => {
+    const mercuryLife = new Life(104, 333);
+    expect()
+  })
 });

@@ -43,5 +43,7 @@ export class Life {
     return this.myLifeExpectancy;
   }
   planetYearsTillDeath() {
+    this.myDeath = this.myLifeExpectancy - Age.myAge;
+    return this.myDeath;
   }
 }
