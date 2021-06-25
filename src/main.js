@@ -2,11 +2,5 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import Journal from './journal.js';
+import TBD from './planetaryAge.js';
 
-
-  $('#').submit(function(event) {
-    event.preventDefault();
-
-  });
-});

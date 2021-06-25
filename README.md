@@ -1,6 +1,6 @@
-# (Application Name)
+# (Planetary Age Calculator)
 
-#### (Brief Description of Application)
+#### (Take a person's age in Earth years and returns their age in years on different planets and determines how many years a user has left to live on each planet.)
 
 #### Authored by Erika Debelis
 
@@ -16,19 +16,15 @@
 * _Babel_
 * _ES6_
 * _Git BASH_
-
-## Description
-describe the site/application
+* _MarkDown_
+* _JSON_
 
 ## Setup/Installation Requirements
 
-1. Download or clone the   link       to your local machine
-2. Navigate to the top level of the directory
-3. Open index.html in your browser
-4. Click 
-5. Click 
-
-Alternately, visit            gh pages link here
+1. Download or clone the https://github.com/ErikaDebelis/planetary-age to your local machine
+2. Navigate to the top level of the directory using git BASH
+3. run _npm install_ to install dependencies
+4. To test out the program run _npm test_ 
 
 ## Bugs
 
