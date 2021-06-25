@@ -13,5 +13,7 @@ export class Age {
     return this.myAge;
   }
   marsYearsOld() {
+    this.myAge = Math.trunc(this.myAge/ 1.88);
+    return this.myAge;
   }
 }
