@@ -8,4 +8,6 @@ export class Age {
     this.myAge = Math.trunc(this.myAge/ 0.24);
     return this.myAge;
   }
+  venusYearsOld() {
+  }
 }
