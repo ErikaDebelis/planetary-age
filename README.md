@@ -1,8 +1,8 @@
-# (Planetary Age Calculator)
+# Planetary Age Calculator
 
-#### (Take a person's age in Earth years and returns their age in years on different planets and determines how many years a user has left to live on each planet.)
+#### Take a person's age in Earth years and returns their age in years on different planets and determines how many years a user has left to live on each planet.
 
-#### Authored by Erika Debelis
+#### Authored by: _Erika Debelis_
 
 ## Technologies Used
 
