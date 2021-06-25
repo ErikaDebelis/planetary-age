@@ -48,7 +48,8 @@ export class Life {
     this.myDeath = this.myLifeExpectancy - Age.myAge;
     if (this.myLifeExpectancy > Age.myAge) {
       return this.myDeath;
-    } else {
+    } else if (this.myLifeExpectancy < Age.myAge) {
+      return this.myDeath;
     }
   }
 }
