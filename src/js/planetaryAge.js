@@ -29,4 +29,6 @@ export class Life {
     this.myLifeExpectancy = Math.trunc(this.myLifeExpectancy/ 0.24);
     return this.myLifeExpectancy;
   }
+  venusYearsTillDeath() {
+  }
 }
