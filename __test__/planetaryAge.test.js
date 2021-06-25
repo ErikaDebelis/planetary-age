@@ -20,4 +20,8 @@ describe('Age', () => {
     const marsAge = new Age ("mars", 25, 80);
     expect(marsAge.marsYearsOld()).toEqual(13);
   })
+  test('should create jupiterYearsOld prototype method to calcuate age on jupiter', () => {
+    const jupiterAge = new Age ("jupiter", 25, 80);
+    expect(jupiterAge.jupiterYearsOld()).toEqual(2);
+  })
 });
