@@ -32,4 +32,8 @@ describe('Life', () => {
     const mercuryLife = new Life(80);
     expect(mercuryLife.myLifeExpectancy).toEqual(80);
   })
+  test('should create mercuryYearsTillDeath prototype method to calculate how many years the user has left to live in the chosen planet years', () => {
+    const mercuryLife = new Life(80);
+    expect(mercuryLife.mercuryYearsTillDeath()).toEqual(333);
+  })
 });

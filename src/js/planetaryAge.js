@@ -25,4 +25,6 @@ export class Life {
     this.myLifeExpectancy = myLife;
     this.myDeath = 0;
   }
+  mercuryYearsTillDeath() {
+  }
 }
