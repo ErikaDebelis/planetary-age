@@ -10,6 +10,6 @@ describe('Age', () => {
   });
   test('should create mercuryYearsOld prototype method to calcuate age on mercury', () => {
     const mercuryAge = new Age("mercury", 25, 80);
-    expect(mercuryAge.mercuryYearsOld()).toEqual(6);
+    expect(mercuryAge.mercuryYearsOld()).toEqual(104);
   })
 });
