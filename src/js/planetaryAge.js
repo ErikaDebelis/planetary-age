@@ -42,4 +42,6 @@ export class Life {
     this.myLifeExpectancy = Math.trunc(this.myLifeExpectancy/ 11.86);
     return this.myLifeExpectancy;
   }
+  planetYearsTillDeath() {
+  }
 }

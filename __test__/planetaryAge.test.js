@@ -48,4 +48,8 @@ describe('Life', () => {
     const jupiterLife = new Life(25, 80);
     expect(jupiterLife.jupiterTotalLifeYears()).toEqual(6);
   })
+  test('should create planetYearsTillDeath prototype o calculate how many years the user has left to live in the chosen planet years', () => {
+    const mercuryLife = new Life(104, 333);
+    expect(mercuryLife.planetYearsTillDeath()).toEqual(229)
+  })
 });
