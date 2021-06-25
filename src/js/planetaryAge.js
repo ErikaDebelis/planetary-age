@@ -33,4 +33,6 @@ export class Life {
     this.myLifeExpectancy = Math.trunc(this.myLifeExpectancy/ 0.62);
     return this.myLifeExpectancy;
   }
+  marsYearsTillDeath() {
+  }
 }
