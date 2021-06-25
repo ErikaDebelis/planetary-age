@@ -1,5 +1,3 @@
-import { TestScheduler } from "jest-cli";
-
 export class Age {
   constructor(myPlanet, myAge) {
     this.myPlanet = myPlanet;
