@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import {Age} from '../src/js/planetaryAge.js'
 ;
 describe('Age', () => {
